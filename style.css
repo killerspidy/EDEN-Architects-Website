@@ -1,0 +1,356 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#allsectionscontainer {
+    background-color: black;
+}
+
+
+/*navigation*/
+#navigation {
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    /* Change to your desired background color */
+}
+
+#navigation h1 {
+    font-size: 40px;
+    /* Adjust the font size as needed */
+    color: white;
+    /* Change to your desired font color */
+    margin: 0;
+    padding: 10px 0;
+}
+
+#navigation span {
+    font-size: 20px;
+    color: #63E6BE;
+    /* Change to your desired span color */
+}
+
+#navigation button {
+    border: none;
+    background-color: transparent;
+}
+
+#navigation button i {
+    color: #63E6BE;
+    /* Change to your desired icon color */
+}
+
+#navigationnavbar {
+    margin-right: 0;
+}
+
+#navigationnavbar li {
+    margin-left: 15px;
+    /* Adjust the spacing between menu items */
+}
+
+#navigationnavbar a {
+    color: white;
+    /* Change to your desired font color */
+    font-size: 17px;
+    /* Adjust the font size as needed */
+    padding: 15px 10px;
+}
+
+#navigationnavbar a:hover {
+    color: red;
+    /* Change to your desired hover font color */
+}
+
+
+
+/* Style for home section */
+#home {
+    background-color: black;
+    /* Light gray background color */
+    text-align: center;
+    /* Center align text */
+    padding: 80px 0;
+    padding-top: 120px;
+}
+
+#home span {
+    color: #6df884;
+    font-family: cursive;
+}
+
+#home h1 {
+    font-size: 3rem;
+    /* Larger font size for the heading */
+    color: white;
+    /* Dark gray text color */
+    margin-bottom: 20px;
+    /* Add space below the heading */
+}
+
+#home p {
+    font-size: 1.2rem;
+    /* Font size for the paragraph */
+    color: white;
+    /* Light gray text color */
+    margin-bottom: 40px;
+    /* Add more space below the paragraph */
+}
+
+
+
+
+/* Style for about section */
+#about {
+    background-color: black;
+    /* White background color */
+    padding: 80px 0;
+    /* Top and bottom padding */
+    padding-top: 150px;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    /* Larger font size for the main heading */
+    color: white;
+    /* Dark gray text color */
+    margin-bottom: 20px;
+    /* Add space below the main heading */
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    /* Font size for the subheading */
+    color: rgb(211, 242, 11);
+    /* Light gray text color */
+    margin-bottom: 20px;
+    /* Add space below the subheading */
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.1rem;
+    /* Font size for the paragraph */
+    color: white;
+    /* Gray text color */
+    line-height: 1.6;
+    /* Adjust line height for better readability */
+}
+
+
+/* Style for services section */
+#services {
+    background-color: black;
+    /* Light gray background color */
+    padding: 80px 0;
+    padding-top: 110px;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Center align text */
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    /* Larger font size for the main heading */
+    color: white;
+    /* Dark gray text color */
+    margin-bottom: 50px;
+    /* Add space below the main heading */
+}
+
+#services h3 {
+    font-size: 1.8rem;
+    /* Font size for service titles */
+    color: rgb(211, 242, 11);
+    /* Light gray text color */
+    margin-top: 20px;
+    /* Add space above service titles */
+}
+
+
+
+
+/* Style for Projects section */
+#projects {
+    background-color: black;
+    /* Light gray background color */
+    padding: 80px 0;
+    padding-top: 120px;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Center align text */
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    /* Larger font size for the main heading */
+    color: white;
+    /* Dark gray text color */
+    margin-bottom: 50px;
+    /* Add space below the main heading */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.597);
+    /* Semi-transparent black background */
+    color: white;
+    /* White text color */
+    padding: 20px;
+    /* Padding inside carousel caption */
+}
+
+.carousel-caption h3 {
+    font-size: 1.8rem;
+    color: #6df884;
+    /* Font size for carousel caption heading */
+    margin-bottom: 10px;
+    /* Add space below carousel caption heading */
+}
+
+
+
+
+/* Style for gallery section */
+#gallery {
+    background-color: black;
+    /* White background color */
+    padding: 80px 0;
+    padding-top: 120px;
+    /* Top and bottom padding */
+    text-align: center;
+    /* Center align text */
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    /* Larger font size for the main heading */
+    color: white;
+    /* Dark gray text color */
+    margin-bottom: 50px;
+    /* Add space below the main heading */
+}
+
+#gallery img,
+#gallery video {
+    width: 100%;
+    /* Ensure images and videos take up full width of their container */
+    height: 200px;
+    /* Set fixed height for images and videos */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+    border: none;
+    /* Remove default border */
+    transition: transform 0.3s ease;
+    /* Add smooth transition on hover */
+}
+
+#gallery img:hover,
+#gallery video:hover {
+    transform: scale(1.05);
+    /* Enlarge image or video on hover */
+}
+
+
+
+/*contact section*/
+#contact {
+    background-color: black;
+    /* Set a background color for the section */
+    color: white;
+    /* Set the text color */
+    padding: 80px 0;
+    padding-bottom: 0;
+    /* Add padding for better spacing */
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    /* Set font size for the section heading */
+    color: white;
+    /* Set heading text color */
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
+}
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+    /* Set font size for the paragraph */
+    color: #0fe8f4;
+    /* Set paragraph text color */
+    margin-bottom: 40px;
+    /* Add margin to the bottom for spacing */
+}
+
+#contact .form-control {
+    width: 100%;
+    /* Set the width of the input fields to 100% */
+    padding: 10px;
+    /* Add padding to the input fields */
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
+    border: 1px solid #ccc;
+    /* Add a border to the input fields */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+}
+
+#contact .btn-primary {
+    padding: 10px 20px;
+    /* Add padding to the button */
+    background-color: #007bff;
+    /* Set background color for the button */
+    color: #fff;
+    /* Set button text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: background-color 0.3s;
+    /* Add smooth transition for background color change */
+}
+
+#contact .btn-primary:hover {
+    background-color: #0056b3;
+    /* Change background color on hover */
+}
+
+#contact ul {
+    list-style: none;
+    /* Remove default list styles */
+    padding: 0;
+    color: white;
+    /* Remove padding */
+}
+
+#contact li {
+    margin-bottom: 10px;
+    /* Add margin to the bottom for spacing between list items */
+}
+
+#contact .fa-2x {
+    margin-right: 10px;
+    /* Add margin to the right for spacing between icon and text */
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: aqua;
+}
